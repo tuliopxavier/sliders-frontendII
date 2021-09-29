@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Controle deslizante</h1>
+
+    <p>Arraste o controle deslizante para exibir o valor atual.</p>
+
+    <div class="slidecontainer">
+        <input type="range" min="1" max="255" value="50" class="slider" id="myRange">
+        <p>Tamanho da fonte: <span id="demo">50</span></p>
+        <p id="text-example">lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        
+        <h5> Tamanho da imagem:</h5>
+        <input type="range" min="1" max="255" value="50" class="slider" id="myImage">
+        <img id="img-example" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.ahnegao.com.br%2Fwp-content%2Fuploads%2F2013%2F08%2Fsailor.jpg&f=1&nofb=1" alt="">
+        
+        <h5> Cor de fundo aleatória:</h5>
+        <input type="range" min="1" max="255" value="50" class="slider" id="myColor">
+
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
